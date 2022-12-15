@@ -1,0 +1,141 @@
+{
+    "drinks": [
+    {
+    "idDrink": "11007",
+    "strDrink": "Margarita",
+    "strAlcoholic": "Alcoholic",
+    "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
+    "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg"
+    },
+    {
+    "idDrink": "11118",
+    "strDrink": "Blue Margarita",
+    "strAlcoholic": "Alcoholic",
+    "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
+    "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg"
+    },
+    {
+    "idDrink": "17216",
+    "strDrink": "Tommy's Margarita",
+    "strAlcoholic": "Alcoholic",
+    "strInstructions": "Shake and strain into a chilled cocktail glass.",
+    "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg"
+    },
+    {
+    "idDrink": "16158",
+    "strDrink": "Whitecap Margarita",
+    "strAlcoholic": "Alcoholic",
+    "strGlass": "Margarita/Coupette glass",
+    "strInstructions": "Place all ingredients in a blender and blend until smooth. This makes one drink.",
+    "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg"
+    },
+    {
+    "idDrink": "12322",
+    "strDrink": "Strawberry Margarita",
+    "strAlcoholic": "Alcoholic",
+    "strInstructions": "Rub rim of cocktail glass with lemon juice and dip rim in salt. Shake schnapps, tequila, triple sec, lemon juice, and strawberries with ice, strain into the salt-rimmed glass, and serve.",
+    "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg"
+    },
+    {
+    "idDrink": "178332",
+    "strDrink": "Smashed Watermelon Margarita",
+    "strAlcoholic": "Alcoholic",
+    "strGlass": "Collins glass",
+    "strInstructions": "In a mason jar muddle the watermelon and 5 mint leaves together into a puree and strain. Next add the grapefruit juice, juice of half a lime and the tequila as well as some ice. Put a lid on the jar and shake. Pour into a glass and add more ice. Garnish with fresh mint and a small slice of watermelon.",
+    "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/dztcv51598717861.jpg"
+    },
+    {
+        "strDrink": "1-900-FUK-MEUP",
+        "strAlcoholic": "Alcoholic",
+        "strInstructions": "Ingredients : Absolut Kurant -> 1/2 oz . Grand Marnier -> 1/4 oz . Chambord raspberry liqueur -> 1/4 oz . Midori melon liqueur -> 1/4 oz Amaretto -> 1/4 oz Cranberry juice -> 1/2 oz Pineapple juice -> 1/4 oz .",
+        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/uxywyw1468877224.jpg",
+        "idDrink": "15395"
+        },
+        {
+        "strDrink": "110 in the shade",
+        "strAlcoholic": "Alcoholic",
+        "strGlass": "Beer Glass",
+        "strInstructions" : "Ingredients 16 oz Lager 1.5 oz Tequila : Preparation Steps Drop shooter in glass. Fill with beer.",
+        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/xxyywq1454511117.jpg",
+        "idDrink": "15423"
+        },
+        {
+        "strDrink": "151 Florida Bushwacker",
+        "strAlcoholic": "Alcoholic",
+        "strInstructions": " Ingredients 1/2 oz Malibu rum1/2 oz Light rum1/2 oz Bacardi 151 proof rum1 oz Dark Creme de Cacao1 oz Cointreau3 oz Milk1 oz Coconut liqueur1 cup Vanilla ice-creamPreparation StepsCombine all ingredients.Blend until smooth.Garnish with chocolate shavings if desired.",
+        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/rvwrvv1468877323.jpg",
+        "idDrink": "14588"
+        },
+        {
+        "strDrink": "155 Belmont",
+        "strAlcoholic": "Alcoholic",
+        "strInstructions": "Ingredients Ingredients1/2 oz Malibu rum1/2 oz Light rum1/2 oz Bacardi 151 proof rum1 oz Dark Creme de Cacao1 oz Cointreau3 oz Milk1 oz Coconut liqueur1 cup Vanilla ice-creamPreparation StepsCombine all ingredients.Blend until smooth.Garnish with chocolate shavings if desired.",
+        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/yqvvqs1475667388.jpg",
+        "idDrink": "15346"
+        },
+    {
+        "strDrink": "Afterglow",
+        "strNon-Alcoholic": "Non-Alcoholic",
+        "strInstructions": "Ingredients Ingredients1 part Grenadine4 parts Orange juice4 parts Pineapple juicePreparation StepsMix.Serve over ice.",
+        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/vuquyv1468876052.jpg",
+        "idDrink": "12560"
+        },
+        {
+        "strDrink": "Alice Cocktail",
+        "strNon-Alcoholic": "Non-Alcoholic",
+        "strInstructions": "Ingredients1 part Grenadine4 parts Orange juice4 parts Pineapple juicePreparation StepsMix.Serve over ice.",
+        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/qyqtpv1468876144.jpg",
+        "idDrink": "12562"
+        },
+        {
+        "strDrink": "Aloha Fruit punch",
+        "strNon-Alcoholic": "Non-Alcoholic",
+        "strInstructions": "Ingredients 2 c Guava juice1 c Sugar3/4 c Water1 1/2 tb Lemon juice1 1/2 c Pineapple ; finely chopped2 ts Ginger root ; chopped Add 1/4 cup water to ginger root. Boil 3 minutes. Strain. Add the liquid to the guava, lemon and pineapple juices. Make a syrup of sugar and remaining water. Cool. Combine with juices and pineapple. Chill throroughly. [I just noticed that the instructions call for pineapple juice, yet theres no pineapple juice in the list of ingredients. If I had to wing it, Id say try 3 cups].",
+        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/wsyvrt1468876267.jpg",
+        "idDrink": "12862"
+        },
+        {
+        "strDrink": "Apello",
+        "strNon-Alcoholic": "Non-Alcoholic",
+        "strInstructions":" Ingredients 4 cl of Orange Juice3 cl of grapefruit juice1 cl of apple juiceStir together in a highball glass. Garnish with a maraschino cherry, and serve.",
+        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/uptxtv1468876415.jpg",
+        "idDrink": "15106"
+        },
+        {
+        "strDrink": "Apple Berry Smoothie",
+        "strNon-Alcoholic": "Non-Alcoholic",
+        "strInstructions": "Ingredients 1 cup orange juicePeels of 4 large apples1 ½ cups frozen mixed berries1 tablespoon honeyLocal Offers00000 ChangeOops! We cannot find any ingredients on sale near you. Do we have the correct zip code?ADVERTISEMENTDirectionsInstructions ChecklistStep 1Process orange juice and apple peels in a blender 30 seconds or until smooth. Add frozen mixed berries and honey. Process 15 seconds.",
+        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/xwqvur1468876473.jpg",
+        "idDrink": "12710"
+        },
+        {
+        "strDrink": "Apple Karate",
+        "strNon-Alcoholic": "Non-Alcoholic",
+        "strInstructions": "Ingredients 2 cup of apple juice1 of large peeled and chopped carrot (or carrot juice)Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour into a tall glass, and serve.",
+        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/syusvw1468876634.jpg",
+        "idDrink": "12564"
+        },
+        {
+        "strDrink": "Banana Cantaloupe Smoothie",
+        "strNon-Alcoholic": "Non-Alcoholic",
+        "strInstructions": "Ingredients 1/2 cup fat-free plain yogurt4-1/2 teaspoons orange juice concentrate2 cups cubed cantaloupe1 large firm banana, cut into 1-inch pieces and frozen2 tablespoons nonfat dry milk powder2 teaspoons honey",
+        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/uqxqsy1468876703.jpg",
+        "idDrink": "12708"
+        },
+        {
+        "strDrink": "Banana Milk Shake",
+        "strNon-Alcoholic": "Non-Alcoholic",
+        "strInstructions":"Ingredients 1banana1/4 cwhite rum1/4 cmilk, 2%1/8 tspvanilla extract4 lgscoops vanilla ice cream",
+        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/rtwwsx1472720307.jpg",
+        "idDrink": "12654"
+        },
+        {
+        "strDrink": "Banana Strawberry Shake Daiquiri",
+        "strNon-Alcoholic": "Non-Alcoholic",
+        "strInstructions": " Ingredients IceLight RumGranulated SugarOrange JuiceStrawberriesBananaIf you do have the Bacardi strawberry mixer (or any rum-based strawberry mixer), you can use that instead of the rum and sugar.",
+        "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/uvypss1472720581.jpg",
+        "idDrink": "12658"
+        }
+    ]
+    }
+    

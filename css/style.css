@@ -1,0 +1,22 @@
+#container{
+    justify-content: center;
+    color:white;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+
+.logo{
+    background:url()
+}
+
+.drink details{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+

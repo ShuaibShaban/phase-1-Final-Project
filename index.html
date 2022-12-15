@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks-API</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <div class="container">
+      <div class="container text-start">
+        <div class="row d-flex">
+          <div class="col-sm"> <h1 id="drinks">Cocktail<span style="color:darkred;">Drinks</span>
+            <img src="./images/summer-holiday-typography-illustration_53876-3270.webp" width='70px' height= '50px'/><br></h1></div>
+
+        </div>
+      </div>
+      </div>
+               
+        <br>
+<!-- background color- light for the search bar on the top -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Add Cocktail</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" >
+                      Dropdown
+<!-- drop down list -->
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Alcoholic Cocktails</a></li>
+                      <li><a class="dropdown-item" href="#">Non-Alcoholic </a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      
+                    </ul>
+                  </li>
+                </ul>
+
+            <form class="d-flex">
+                <input class="form-control" type="text" placeholder="Search you favourite cocktail" id="search"/>
+                <button class="btn btn-outline-info ms-1" id="searchBtn">SEARCH</button>
+            </form>
+
+
+        </div>  
+    <script src="./js/index.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>
