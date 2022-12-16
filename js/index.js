@@ -49,6 +49,7 @@ let getInfo = () => {
         console.log(myDrink.strDrink);
         console.log(myDrink.strDrinkThumb);
         console.log(myDrink.strInstructions);
+        console.log(myDrink.strAlcoholic);
         let count = 1;
         let ingredients = [];
         for (let i in myDrink) {
@@ -82,7 +83,7 @@ let getInfo = () => {
         });
       })
 
-      //  In case an error occurs it is more easier to track the where the actual error is
+      //  In case an error occurs it is more easier to track where the actual error is
       .catch(() => {
         result.innerHTML = `<h3 class ="msg">Please enter a valid input</h3>`;
       });

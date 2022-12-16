@@ -1,4 +1,4 @@
- 
+
 /* styling the login form for the userName and passWord  */
  /* *{
     margin: 0;
@@ -140,8 +140,8 @@
  }
 
  #result{
-    color:#575a7b;
-    line-height: 2em; 
+    color:#000000;
+    line-height: 1em; 
  }
 
  #result img{
@@ -157,7 +157,6 @@
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.05em;
-    color: #1f194c;
     position: relative;
  }
 
@@ -166,7 +165,6 @@
     position:absolute;
     width: 15px;
     height: 3px;
-    background-color: #5372f0;
     left: 42.5%;
     bottom: -0.3em;
  } #result h3 {
