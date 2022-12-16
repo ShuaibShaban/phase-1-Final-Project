@@ -1,34 +1,33 @@
-// password function
+// password function seen and unseen
 
-function myfunction(){
-    var x = document.getElementById("pass");
+function myfunction() {
+  var x = document.getElementById("pass");
 
-    if(x.type === "password"){
-        x.type = "text";
-    }
-    else{
-        x.type = "password"
-    }
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
 }
 
 //  function validation of the password. If the login is successful you get the notification Login Successful, but if it fails you get the
 //  notification failed.
 
-function validate(){
-    var password = document.getElementById("pass");
-    var length = document.getElementById("length");
+function validate() {
+  var password = document.getElementById("pass");
+  var length = document.getElementById("length");
 
-    if(password.value.length >= 8){
-        alert("Login Succesfull");
-        window.location.replace('index.html')
-       return false;
-    }
-    else{
-        alert('Login Failed');
-    }
+  if (password.value.length >= 8) {
+    alert("Login Succesfull");
+    window.location.replace("index.html");
+    return false;
+  } else {
+    alert("Login Failed");
+  }
 }
 
 // declaring variables
+
 let result = document.getElementById("result");
 let searchBtn = document.getElementById("search-btn");
 
@@ -49,7 +48,6 @@ let getInfo = () => {
         console.log(myDrink.strDrink);
         console.log(myDrink.strDrinkThumb);
         console.log(myDrink.strInstructions);
-        console.log(myDrink.strAlcoholic);
         let count = 1;
         let ingredients = [];
         for (let i in myDrink) {
@@ -89,5 +87,6 @@ let getInfo = () => {
       });
   }
 };
+// Event listeners in my project
 window.addEventListener("load", getInfo);
 searchBtn.addEventListener("click", getInfo);

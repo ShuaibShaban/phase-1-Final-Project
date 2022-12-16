@@ -1,15 +1,18 @@
 
 /* styling the login form for the userName and passWord  */
- /* *{
+ *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
- body{
-    background-color: white;
-    background-size: cover;
-    height: 100vh;
- }
+
+/* body styling */
+
+ 
+body {
+   height: 100vh;
+   background: linear-gradient( white,#000000 50%);
+}
 
  .form{
     width:250px;
@@ -33,9 +36,37 @@
     margin-bottom: 20px;
  }
 
+ /* username and password */
  .form p{
     padding-bottom: -15px;
  } 
+
+ .tabs ul{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .tabs li{
+   list-style: none;
+   margin-left: 20px;
+ }
+
+ .tabs ul li a 
+ {
+   text-decoration: none;
+   padding: 6px 15px;
+   color: #fff;
+   border-radius: 20px ;
+ }
+
+ .tabs ul li a:hover,
+ .tabs ul li a:active
+ {
+   background: #000;
+   color: #fff;
+ }
+
 
  .form input{
     width: 100%;
@@ -54,7 +85,7 @@
  }
 
 
- .form input[type="submit"]
+ .form input[value="LOGIN"]
  {
     width: 60%;
     margin-left: 50px;
@@ -65,15 +96,21 @@
     font-size: 16px;
     font-weight: bold;
     border-radius: 15px;
-
+    text-align: center;
  }
 
- .form input[type="submit"]:hover{
+ .form input[value="LOGIN"]:hover{
     cursor: pointer;
     background: #66ff00;
     color: #fff;
     font-weight: bold;
- }  */
+    font-size: 16px;
+    border-radius: 15px;
+    width: 60%;
+    margin-left: 50px;
+    border: none;
+    height: 40px;
+ }
 
 
 /* javascript app using fetch, by default my page has the following */
@@ -87,13 +124,13 @@
 
  /* main body styling */
 
- body {
+  body {
     height: 100vh;
     background: linear-gradient( white,#000000 50%);
  }
 
 /* main container styling */
- .container{
+  .container{
     position: absolute ;
     transform:translate(-50%, -50%);
     top: 50%;
@@ -107,15 +144,15 @@
  }
 
  /* search-container styling */
- .search-container{
+  .search-container{
     display:grid;
     grid-template-columns: 9fr 3fr;
     gap:1em;
     margin-bottom:1.2em;
- }
+ } 
 
  /* search input field styling */
- .search-container input{
+  .search-container input{
     font-size: 1em;
     padding:0.6em 0.3em;
     border: none;
@@ -196,8 +233,8 @@
  }
 
  /* adjustments as the screen narrows styling */
- @media screen and (max-width:600px) {
+  @media screen and (max-width:600px) {
     .container {
         font-size: 14px;
     }
- }
+ }  
