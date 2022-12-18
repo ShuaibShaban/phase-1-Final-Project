@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cocktail App</title>
-    <meta http-equiv="" content="0"; url="http://127.0.0.1:5504/index.html">
+    <meta http-equiv="" content="0" ; url="http://127.0.0.1:5504/index.html" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
@@ -13,16 +13,26 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    
+    <!-- Tabs ul -->
+    <div id="tabs" class="tabs">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a onclick ="contactUs ()" href="#">Contact US</a></li>
+        <li><a onclick="more ()" href="#">More</a></li>
+      </ul>
+    </div>
+
     <!-- Login form -->
-    <div class="form">
+    <div id="Login" class="form">
       <h1>LOGIN HERE</h1>
       <p>Username :</p>
-      <input type="text" name="" placeholder="Name Here">
+      <input type="text" name="" placeholder="Name Here" />
       <p>Password :</p>
       <input type="password" name="" placeholder="Password Here" id="pass" />
       <input type="checkbox" onclick="myfunction()" />
       <div class="login">
-      <input type="sumbit" name="" value="LOGIN" onclick="validate()">
+        <button id="Login-btn"onclick="validate()">Login</button>
       </div>
     </div>
 
@@ -30,26 +40,50 @@
       <p id="length"></p>
     </div>
 
-    <div class="tabs">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Contact US</a></li>
-            <li><a href="#">More</a></li>
-        </ul>
-    </div>
-    <div class="container">
-      <div class="search-container">
-        <input
-          type="text"
-          placeholder="Type a cocktail name..."
-          id="user-inp"
-          value="margarita"
-        />
-        <button id="search-btn">Search</button>
+    <section id="main-field">
+      <div class="container">
+        <div class="search-container">
+          <input
+            type="text"
+            placeholder="Type a cocktail name..."
+            id="user-inp"
+            value="margarita"
+          />
+          <button id="search-btn">Search</button>
+        </div>
+        <!-- Title Alcoholic Drinks -->
+        <h1 class="drinks">Alcoholic Drinks</h1>
+        <div id="result"></div>
       </div>
-      <div id="result"></div>
-    </div>
-    
+  
+      <!-- search container non-alcoholic drinks -->
+      <div id="hero">
+        <div class="search-container">
+          <input
+            type="text"
+            placeholder="Type a cocktail name..."
+            id="user-inp"
+            value="After glow"
+          />
+          <button id="search-btn">Search</button>
+        </div> --> 
+  
+        <!-- Title Non-Alcoholic Drinks -->
+        <h1 class="drinks"> Non-Alcoholic Drinks</h1>
+        <div id="result"></div>
+      </div> 
+  
+    </section>
+
+    <section id="contact">
+      <form>
+        <input type="text" placeholder="Enter user name"/>
+        <input type="text" placeholder="Enter user Email"/>
+        <input type="text" placeholder="Enter comment"/>
+        <button>Send</button>
+      </form>
+    </section>
+   
     <!-- script -->
     <script src="./js/index.js"></script>
     <script src="./js/bootstrap.js"></script>
