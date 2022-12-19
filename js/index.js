@@ -1,10 +1,11 @@
 // password function seen and unseen
 
 // const more = document.getElementById('more').style.display = "block";
-const tabs = document.getElementById('tabs').style.display = "block";
-const contact = document.getElementById('contact').style.display = "none";
-const mainSection = document.getElementById('main-field').style.display = "none" ;
-const Login = document.getElementById('Login')
+const tabs = (document.getElementById("tabs").style.display = "block");
+const contact = (document.getElementById("contact").style.display = "none");
+const mainSection = (document.getElementById("main-field").style.display =
+  "none");
+const Login = document.getElementById("Login");
 function myfunction() {
   var x = document.getElementById("pass");
 
@@ -27,8 +28,8 @@ function validate() {
   } else {
     alert("Login Failed");
   }
-  document.getElementById('main-field').style.display = "block" ;
-  document.getElementById('Login').style.display = "none" ;
+  document.getElementById("main-field").style.display = "block";
+  document.getElementById("Login").style.display = "none";
 }
 
 // declaring variables
@@ -96,26 +97,12 @@ let getInfo = () => {
 window.addEventListener("load", getInfo);
 searchBtn.addEventListener("click", getInfo);
 
-function contactUs () {
-  document.getElementById('contact').style.display = "block";
-  document.getElementById('main-field').style.display = "none" ;
+function contactUs() {
+  document.getElementById("contact").style.display = "block";
+  document.getElementById("main-field").style.display = "none";
 }
 
-function more () {
- document.getElementById('more').style.display = "block";
- document.getElementById('main-field').style.display = "none" ;
+function more() {
+  document.getElementById("more").style.display = "block";
+  document.getElementById("main-field").style.display = "none";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
