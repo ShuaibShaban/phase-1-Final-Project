@@ -495,8 +495,7 @@
     "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/wqstwv1478963735.jpg",
     "idDrink": "17118"
     },
-    ]
-    }
+    {
         "drinks": [
         {
         "strDrink": "Afterglow",
@@ -789,7 +788,7 @@
         "idDrink": "12728"
         }
         ]
-        }
+        },
         {
         "drinks": [
         {
@@ -1082,5 +1081,7 @@
         "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/trttrv1441254466.jpg",
         "idDrink": "12728"
         }
-        ]
+        ]  
         }
+        
+        

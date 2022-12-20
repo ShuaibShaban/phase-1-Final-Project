@@ -21,7 +21,7 @@ This application has been built with the following technologies:
 
 - Once this web application loads you will need to fil in your credentials : Your name and your password to have get a pass through to have accces to the drinks.
 
-- Once login is successful, you can now go ahead and search for the drinks and a list of ingredients will be provided together with the method of preparation.
+- Once login is successful, you can now go ahead and search for drinks both alcoholic and non-alcoholic  and a list of ingredients will be provided together with the method of preparation. 
 
 ##### Installations
 - You can either  `clone`   or  `fork`  the repo of my project by opening your terminal / Command Line Interface on your computer.
