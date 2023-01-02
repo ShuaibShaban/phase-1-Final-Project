@@ -74,7 +74,7 @@ This application has been built with the following technologies:
 
 #### License 
 
-[IST](https://opensource.org/licenses/ISC)
+[ISC](https://opensource.org/licenses/ISC)
 
 
 #### Author
