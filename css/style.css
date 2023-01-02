@@ -127,7 +127,7 @@ body {
 
   body {
     height: 100vh;
-    background: linear-gradient( white,#000000 50%);
+    background: linear-gradient( grey,#000000 50%);
  }
 
 /* main container styling */
@@ -241,6 +241,21 @@ body {
     }
  }  
 
+.AlcoholicDrinks{
+   float: right;
+   justify-content: right;
+   color: #ffffff;
+   margin-top: 50px;
+   margin-right: 50px;
+   
+   
+}
 
+.Non-AlcoholicDrinks{
+   justify-content: flex-end;
+   color: #ffffff;
+   margin-top: 50px;
+   margin-left: 50px;
+}
 
  
